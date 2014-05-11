@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="Stylesheet" type="text/css" href="StyleSheet1.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="main-nav">
+                <li><a href="">home</a></li>
+                <li><a href="">contact</a></li>
+                <li><a href="">portfoli</a></li>
+                <li><a href="">quote</a></li>
+                <li><a href="">products</a></li>
+                <li><a href="">testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="wrapper">
+            <h1 id="logo">
+                <a href="">
+                    <img src="images/telerikacademy-logo.png" alt="TelerikLogo" width="307" height="62"/>
+                </a>
+            </h1>
+
+            <div id="slider">
+                <h1>Maecenas scelerisque fermentum melus</h1>
+                <p class="mini">
+                    Posted by admin in on 09 30th, 2008 | 2 Comments
+                </p>
+                <p>
+                    Pellentesque tincidunt, diam eget accumsan posuere, est sapien rhoncus nunc, 
+                    feugiat fermentum urna arcu ut est. Sed bibendum dolor eu orci.  
+                    Sed sollicitudin, enim ut malesuada condimentum, mauris nisl ullamcorper ante, 
+                    vitae ullamcorper metus nulla vitae est. Fusce luctus feugiat tortor. Mauris ut 
+                    magna. Mauris ut nibh ornare arcu consectetuer condimentum. Quisque cursus. 
+                    Vivamus at justo ut eros pellentesque eleifend. Morbi et odio et orci commodo 
+                    ullamcorper. 
+                </p>
+            </div>
+
+        <section>
+
+            <aside>
+                <h1>lifestream</h1>
+                <h2>Maecenas scelerisque fermentum</h2>
+                <p class="mini">Posted by admin in on 
+                    <span id="Span11">09 30th, 2008</span>|
+                    <span id="Span12">2 Comments</span>
+                </p>
+
+                <img src="images/image.jpg" alt="image"/>
+                <p class="after-image">
+                    Sed sollicitudin, enim ut malesuan condimentum, mauris nisl 
+                    ullam ante, vitae ullamcorper metus nun vitae est. Fusce luctus feugiat ... 
+                </p>
+
+                <h2>Maecenas scelerisque fermentum</h2>
+                <p class="mini">Posted by admin in on 
+                    <span id="Span13">09 30th, 2008</span>|
+                    <span id="Span14">2 Comments</span>
+                </p>
+
+                <img src="images/image.jpg" alt="image"/>
+                <p class="after-image">
+                    Sed sollicitudin, enim ut malesuan condimentum, mauris nisl 
+                    ullam ante, vitae ullamcorper metus nun vitae est. Fusce luctus feugiat ... 
+                </p>
+
+                <header>
+                    <h3>recent posts</h3>
+                </header>
+                <ul>
+                    <li><a href="">Maecenas scelerisque fermentum melus</a></li>
+                    <li><a href="">Nulla tincidunt lorem impterdiet</a></li>
+                    <li><a href="">Magna suspendisse eleifend at nulla</a></li>
+                    <li><a href="">Ut sagittis ultricesurna eget erat non</a></li>
+                    <li><a href="">Nam libero tempore, cum solute nobis</a></li>
+                    <li><a href="">Magna suspendisse eleifend at nulla</a></li>
+                </ul>
+
+            <header>
+                <h3>recent posts</h3>
+            </header>
+                <ul>
+                    <li><a href="">Maecenas scelerisque fermentum melus</a></li>
+                    <li><a href="">Nulla tincidunt lorem impterdiet</a></li>
+                    <li><a href="">Magna suspendisse eleifend at nulla</a></li>
+                    <li><a href="">Ut sagittis ultricesurna eget erat non</a></li>
+                    <li><a href="">Nam libero tempore, cum solute nobis</a></li>
+                    <li><a href="">Magna suspendisse eleifend at nulla</a></li>
+                </ul>
+            </aside> 
+
+            <article id="first">
+                <h1>popular articles</h1>
+                <h2>Maecenas scelerisque fermentum</h2>
+                <p class="mini">Posted by admin in on 
+                    <span id="Span1">09 30th, 2008</span>|
+                    <span id="Span2">2 Comments</span>
+                </p>
+                <img src="images/image.jpg" alt="image"/>
+                <p class="after-image">
+                    Sed sollicitudin, enim ut malesuan condimentum, mauris nisl 
+                    ullam ante, vitae ullamcorper metus nun vitae est. Fusce luctus feugiat ... 
+                </p>
+
+                <h2>Maecenas scelerisque fermentum</h2>
+                <p class="mini">Posted by admin in on 
+                    <span id="Span7">09 30th, 2008</span>|
+                    <span id="Span8">2 Comments</span>
+                </p>
+                <img src="images/image.jpg" alt=""/>
+                <p class="after-image">
+                    Sed sollicitudin, enim ut malesuan condimentum, mauris nisl 
+                    ullam ante, vitae ullamcorper metus nun vitae est. Fusce luctus feugiat ... 
+                </p>
+            </article>
+
+            <article id="second">
+                <h1>recent posts</h1>
+                <h2>Maecenas<span class="head">says</span></h2>
+                <p>
+                    Pellenteque tincidunt, diam eget accumsan posuere, est sapien rhoncus nunc,
+                    feugiat fermentum
+                </p>
+
+                <h2>Maecenas<span class="head">says</span></h2>
+                <p>
+                    Pellenteque tincidunt, diam eget accumsan posuere, est sapien rhoncus nunc,
+                    feugiat fermentum
+                </p>
+
+                <h2>Maecenas<span class="head">says</span></h2>
+                <p>
+                    Pellenteque tincidunt, diam eget accumsan posuere, est sapien rhoncus nunc,
+                    feugiat fermentum
+                </p>
+            </article>
+
+            <article id="third">
+                <h1>recent posts</h1>
+                <h2>Maecenas scelerisque fermentum melus</h2>
+                <p class="mini">Posted by admin in on 
+                    <span id="Span3">09 30th, 2008</span>|
+                    <span id="Span4">2 Comments</span>
+                </p>
+                <img src="images/image-third.jpg" alt="image" />
+                <p class="after-image">
+                    Pellentesque tincidunt, diam eget accumsan posuere, est sapien rhoncus nunc, 
+                    feugiat fermentum urna arcu ut est. Sed bibendum dolor eu orci.  
+                    Sed sollicitudin, enim ut malesuada condimentum, mauris nisl ullamcorper 
+                    ante, vitae ullamcorper metus nulla vitae est. Fusce luctus feugiat tortor.
+                    Mauris ut magna. Mauris ut nibh ornare arcu consectetuer condimentum. 
+                    Quisque cursus. Vivamus at justo ut eros pellentesque eleifend. Morbi 
+                    et odio et orci commodo ullamcorper. Pellentesque tincidunt, diam eget 
+                    accumsan posuere, est sapien rhoncus nunc, feugiat fermentum urna arcu 
+                    ut est. Sed bibendum dolor eu orci.
+                </p>
+            </article>
+
+            <div></div>
+        </section> 
+    </div>
+</body>
+</html>

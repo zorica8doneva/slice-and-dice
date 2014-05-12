@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="windows-1251" />
+    <title></title>
+    <link rel="Stylesheet" type="text/css" href="StyleSheet1.css" />
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+        <a href="" id="logo"><span class="left"></span>Company Name<span class="right"></span></a>
+
+        <div id="language">
+            <strong>Изберете език:</strong>
+            <ul class="nav"> 
+                <li class="current"><a href="">Български</a></li>
+                <li><a href="">English</a></li>
+            </ul>
+        </div>           
+        <p class="info">
+            тел.:02/888 888<br />
+            GSM:+359 88 8 88 88 88<br />
+            e-Mail:office<span>@</span>office.com
+        </p>
+    </div>
+
+    <div id="nav">
+        <ul class="nav">
+            <li><a href="#home.html">начало</a></li>
+            <li><a href="#static-page.html" class="current">новини</a></li>
+            <li><a href="#static-page1.html">за нас</a></li>
+            <li><a href="#static-page.html">продукти</a></li>
+            <li><a href="#static-page.html">сервиз</a></li>
+            <li><a href="#static-page1.html">партньори</a></li>
+            <li><a href="#contacts.html">за контакти</a></li>
+        </ul>
+        <form id="search">
+            <input type="search" />
+        </form>
+    </div>
+
+    <div id="section" class="l-cs">
+        <div id="article">
+            <div id="content">
+              <div id="content1">
+                <h1>Level 1 Headeing</h1>
+                <h2>Level 1 Headeing</h2>
+                <h3>Level 1 Headeing</h3>
+                <h4>Level 1 Headeing</h4>
+                <h5>Level 1 Headeing</h5>
+                <h6>Level 1 Headeing</h6>
+     
+                <ul>
+                    <li>Vestibulum in mauris semper tortor interdum ultrices.</li>
+                    <li>Sed vel lorem et justo laoreet bibendum. Donec dictum.</li>
+                    <li>Etiam massa libero, lacinia at, commodo in, tincidunt a, purus.</li>
+                    <li>Praesent volutpat eros quis enim blandit tincidunt.</li>
+                    <li>Aenean eu libero nec lectus ultricies laoreet. Donec rutrum, nisi vel egestas ultrices</li>
+                </ul>
+              </div>
+
+                <p>              
+                    <img src="images/picture6.jpg" alt="image" width="200px" height="140px"/>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur quam augue, vehicula quis, tincidunt vel, varius vitae, nulla. Sed convallis orci. Duis libero orci, pretium a, convallis quis, pellentesque a, dolor. Curabitur vitae nisi non dolor vestibulum consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <a href="">Curabitur quam</a> augue, vehicula quis, tincidunt vel, varius vitae, nulla. Sed convallis orci. Duis libero orci, <a href="">pretium a</a>, convallis quis, pellentesque a, dolor. Curabitur vitae nisi non dolor vestibulum consequat. 
+                </p>
+            </div>
+        </div>
+        <div id="aside">
+          <p>
+              <img src="images/asidecontent.png" alt="image" />
+          </p>
+          <p>
+              <img src="images/asidecontent.png" alt="image" />
+          </p>
+        </div>
+    </div>

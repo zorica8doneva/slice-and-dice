@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="windows-1251" />
+    <title></title>
+    <link rel="Stylesheet" type="text/css" href="StyleSheet1.css" />
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+        <a href="" id="logo"><span class="left"></span>Company Name<span class="right"></span></a>
+
+        <div id="language">
+            <strong>Изберете език:</strong>
+            <ul class="nav"> 
+                <li class="current"><a href="">Български</a></li>
+                <li><a href="">English</a></li>
+            </ul>
+        </div>           
+        <p class="info">
+            тел.:02/888 888<br />
+            GSM:+359 88 8 88 88 88<br />
+            e-Mail:office<span>@</span>office.com
+        </p>
+    </div>
+
+    <div id="nav">
+        <ul class="nav">
+            <li><a href="#home.html">начало</a></li>
+            <li><a href="#static-page.html">новини</a></li>
+            <li><a href="#static-page1.html">за нас</a></li>
+            <li><a href="#static-page.html">продукти</a></li>
+            <li><a href="#static-page.html">сервиз</a></li>
+            <li><a href="#static-page1.html">партньори</a></li>
+            <li><a href="#contacts.html" class="current">за контакти</a></li>
+        </ul>
+        <form id="search">
+            <input type="search" />
+        </form>
+    </div>
+
+    <div id="section">
+        <div id="article">
+            <img src="images/map.png" alt="map" width="400px" height=350px" />
+        </div>
+        <div id="aside">
+            <form>
+                <label for="firstname">Име:</label>
+                <input type="text" id="firstname" />
+
+                <br /><br />
+
+                <label for="lastname">Фамилия:</label>
+                <input type="text" id="lastname" />
+
+                <br /><br />
+
+                <label for="mail">Еmail:</label>
+                <input type="email" id="mail" />
+
+                <br /><br />
+
+                <label for="massage">Съобщение</label>
+                <textarea id="massage" cols="30" rows="10">
+                </textarea>
+
+                <br /><br />
+
+                <input type="submit" value="Изпрати" />
+            </form>
+        </div>
+    </div>
+
+    <div id="footer">
+        <ul class="nav">
+            <li><a href="">начало</a></li>
+            <li><a href="" class="current">за нас</a></li>
+            <li><a href="">партньори</a></li>
+            <li><a href="">за контакти</a></li>
+        </ul>
+
+        <p>
+            Всички права към сайта и съдържанието в него, са написани от Зорица :) 
+        </p>
+    </div>
+  </div>
+</body>
+</html>

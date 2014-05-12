@@ -1,0 +1,189 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="Stylesheet" type="text/css" href="StyleSheet1.css" />
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+        <div id="logo"><strong>Telerik<span>Academy</span></strong></div>
+
+        <div id="search">
+            <input type="text" />
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="current"><a href="#">home</a>
+            </li><li>
+                <a href="#">contact</a>
+            </li><li>
+                <a href="#">about us</a>
+            </li><li>
+                <a href="#">testimonials</a>
+            </li><li>
+                <a href="#">blog</a>
+            </li><li>
+                <a href="#">portfolio</a>
+            </li><li>
+                <a href="#">shortcodes</a>
+            </li><li>
+                <a href="#">page templates</a></li>
+        </ul>
+
+        <div id="social">
+            <a href=""><img src="images/social.png" alt="tweeter"/></a>
+        </div>
+
+    </nav>
+
+    <section>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">same category</a></li>
+            <li class="selected"><a href="#">post title goes here</a></li>
+        </ul>
+
+        <article>
+            <h1>Your Post Title Goes Here</h1>
+            <h2>Posted by Admin in Category on April 23, 2011</h2>
+
+            <div class="wrap-img">
+                <img src="images/image.png" alt=""/>
+            </div>
+
+            <p>
+                Rhoncus quis, varius sed velit. Mauris quis nunc eu 
+                nunc molestie egestas et sit amet odio. Morbi lacinia 
+                velit in nibh sodales sed pharetra sem feugiat. Vivamus 
+                ut cursus augue. Integer sit amet arcu lorem, at egestas tellus. 
+            </p>
+            <footer>
+                <button>Read More</button>
+            </footer>
+        </article>
+
+        <article>
+            <h1>Your Post Title Goes Here</h1>
+            <h2>Posted by Admin in Category on April 23, 2011</h2>
+
+            <div class="wrap-img">
+                <img src="images/image.png" alt=""/>
+            </div>
+
+            <p>
+                Rhoncus quis, varius sed velit. Mauris quis nunc eu 
+                nunc molestie egestas et sit amet odio. Morbi lacinia 
+                velit in nibh sodales sed pharetra sem feugiat. Vivamus 
+                ut cursus augue. Integer sit amet arcu lorem, at egestas tellus. 
+            </p>
+
+            <footer>
+                <button>Read More</button>
+                <ul class="nav">
+                    <li><a href="">&laquo;</a></li>
+                    <li><a href="">1</a></li>
+                    <li class="current"><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">&raquo;</a></li>
+                </ul>
+            </footer>
+        </article>
+    </section>
+
+    <aside class="right">
+      <div>
+        <h1>What We Offer</h1>
+
+        <ul>
+            <li><a href="">Rhoncus quis, varius sed velit eu nunc</a></li>         
+            <li><a href="">Mauris quis nunc eu nunc molestie</a></li>
+            <li><a href="">Egestas et sit amet odio Morbi lacin</a></li>
+            <li><a href="">In nibh sodales sed pharetra  Sem</a></li>
+            <li><a href="">vivamus ut cursus au Integer sit amet</a></li>
+            <li><a href="">arcu lorem at eu nc Egestas tellus</a></li>
+            <li><a href="">phasellus tellus orci Congue at tristiq</a></li>
+        </ul> 
+      </div>
+      <div>
+        <h1>What We Offer</h1>
+
+        <ul>
+            <li><a href="">Rhoncus quis, varius sed velit eu nunc</a></li>         
+            <li><a href="">Mauris quis nunc eu nunc molestie</a></li>
+            <li><a href="">Egestas et sit amet odio Morbi lacin</a></li>
+            <li><a href="">In nibh sodales sed pharetra  Sem</a></li>
+            <li><a href="">vivamus ut cursus au Integer sit amet</a></li>
+            <li><a href="">arcu lorem at eu nc Egestas tellus</a></li>
+            <li><a href="">phasellus tellus orci Congue at tristiq</a></li>
+        </ul> 
+      </div>
+      <div>
+        <h1>What We Offer</h1>
+
+        <ul>
+            <li><a href="">Rhoncus quis, varius sed velit eu nunc</a></li>         
+            <li><a href="">Mauris quis nunc eu nunc molestie</a></li>
+            <li><a href="">Egestas et sit amet odio Morbi lacin </a></li>
+            <li><a href="">In nibh sodales sed pharetra  Sem </a></li>
+            <li><a href="">vivamus ut cursus au Integer sit amet</a></li>
+            <li><a href="">arcu lorem at eu nc Egestas tellus</a></li>
+            <li><a href="">phasellus tellus orci Congue at tristiq</a></li>
+        </ul> 
+      </div>
+    </aside> 
+     
+    <div class="clear"></div>
+
+    <aside>
+      <div class="col">
+        <h1>Who We Are</h1>
+        <p>
+            Rhoncus quis, varius sed velit. Mauris quis nunc 
+            eu nunc molestie egestas et sit amet odio. Morbi 
+            lacinia velit in nibh sodales sed pharetra sem 
+            feugiat. Vivamus ut cursus augue. Integer sit 
+            amet arcu lorem, at egestas tellus. Phasellus tellus 
+            orci, congue at tristique at, mattis ut arcu. Donec 
+            dictum eros eu felis laoreet egestas. Nullam 
+        </p>
+      </div>
+
+      <div class="col">
+        <h1>Who We Are</h1>
+        <p>
+            Rhoncus quis, varius sed velit. Mauris quis nunc 
+            eu nunc molestie egestas et sit amet odio. Morbi 
+            lacinia velit in nibh sodales sed pharetra sem 
+            feugiat. Vivamus ut cursus augue. 
+            Integer sit amet arcu lorem, at egestas 
+            tellus. Phasellus tellus orci, congue at tristique at, 
+            mattis ut arcu. Donec dictum eros eu felis laoreet egestas. Nullam 
+        </p>
+      </div>
+
+      <div class="col">
+        <h1>Who We Are</h1>
+        <p>
+            Rhoncus quis, varius sed velit. Mauris quis nunc 
+            eu nunc molestie egestas et sit amet odio. Morbi 
+            lacinia velit in nibh sodales sed pharetra sem 
+            feugiat. Vivamus ut cursus augue. Integer sit amet 
+            arcu lorem, at egestas tellus. Phasellus tellus orci, 
+            congue at tristique at, mattis ut arcu. Donec dictum eros 
+            eu felis laoreet egestas. Nullam 
+        </p>
+      </div>
+    </aside>
+
+    <footer>
+        <p>
+            <a href="#">Slice and Dice Course</a> | <a href="#">Telerik SoftwareAcademy</a>
+        </p>
+      </footer>
+  </div>
+</body>
+</html>

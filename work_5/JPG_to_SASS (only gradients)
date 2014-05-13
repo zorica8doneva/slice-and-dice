@@ -22,40 +22,40 @@ body {
 			border-top-right-radius:10px;
 			border-top-left-radius:10px;
 			border-bottom-right-radius:5px;
-		    #logo {
+			 #logo {
 			    @include linear-gradient(white,30%,#cbcccb,100%);
-				-webkit-border-bottom-left-radius: 10px;
-                -moz-border-bottom-left-radius: 10px;
-	            -ms-border-bottom-left-radius: 10px;
-	            -o-border-bottom-left-radius: 10px;
-	            border-bottom-left-radius:10px;	
+			    -webkit-border-bottom-left-radius: 10px;
+                	    -moz-border-bottom-left-radius: 10px;
+	            	    -ms-border-bottom-left-radius: 10px;
+	            	    -o-border-bottom-left-radius: 10px;
+	            	    border-bottom-left-radius:10px;	
 
-				-webkit-border-bottom-right-radius: 10px;
-                -moz-border-bottom-right-radius: 10px;
-	            -ms-border-bottom-right-radius: 10px;
-	            -o-border-bottom-right-radius: 10px;
-	            border-bottom-right-radius:10px;	
+			    -webkit-border-bottom-right-radius: 10px;
+                	    -moz-border-bottom-right-radius: 10px;
+	            	    -ms-border-bottom-right-radius: 10px;
+	            	    -o-border-bottom-right-radius: 10px;
+	            	    border-bottom-right-radius:10px;	
 			}
 			.border {
 			    width:50px;
-				height:170px;
-				margin-left:270px;
-				margin-top:44px;
+			    height:170px;
+			    margin-left:270px;
+			    margin-top:44px;
 			    background-image:url(images/angle.png), url(images/angle1.png);
 			    background-repeat:no-repeat;
-				background-position:0 0, 0 150px;
+			    background-position:0 0, 0 150px;
 			}
 		}
 		nav {
 		    ul {
 			    li {
-				    background-image:url(images/arrow_c.png);
-	                background-repeat:no-repeat;
-	                background-position:200px 5px;
-					&:hover, &.current {
-					    background-image:url(images/arrow.png);
-					}
+				background-image:url(images/arrow_c.png);
+	                	background-repeat:no-repeat;
+	                	background-position:200px 5px;
+				&:hover, &.current {
+				    background-image:url(images/arrow.png);
 				}
+			    }
 			}
 		}
 		aside {

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="Stylesheet" type="text/css" href="Scss1.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="logo">
+                <a href=""><img src="images/logo.png"</a>
+            </div>
+
+            <div id="latest">
+                <h1>Latest articles</h1>
+                <ul class="italic">
+                    <li><a href="">Vineyards & Winery Offers Indulgent Adventures</a></li>
+                    <li><a href="">When the Internet Actually Works</a></li>
+                    <li><a href="">Ninth Annual Petite Sirah Symposium to Have Live Broadcast</a></li>
+                </ul>
+            </div>
+
+            <div id="search">
+                <input type="text" placeholder="Search"/>
+                <p>
+                    The best blog about wine. We love wine and we can’t live without it. 
+                    See always the latest news and reviews
+                </p>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="">Wine Spinner</a>
+                </li><li class="current">
+                    <a href="">Sip or Spit Meter</a>
+                </li><li>
+                    <a href="">Wine Rack</a>
+                </li><li class="bullet">
+                    <a href="">Rotten Vine</a>
+                </li><li class="bullet">
+                    <a href="">Subscribe</a></li>
+            </ul>
+        </nav>
+
+        <div id="slider">
+            <button class="left"><img src="images/left-arrow.png" />PREV</button>
+            <div id="holder">
+                <img src="images/bottle.png" />
+                <div id="one">
+                    <h1>Corked Screwer</h1>
+                </div>
+                <div id="two">
+                    <h2>Unique resource for wine lovers</h2>
+                </div>
+            </div>
+            <button class="right"><img src="images/right-arrow.png" />NEXT</button>
+        </div>
+        
+        <section>
+          <div id="left">
+            <article>
+                <header> 
+                    <h1>Article title</h1>
+
+                    <button class="left"><img src="images/left-arrow.png" /></button>
+                    <img src="images/article-image.jpg" id="content"/>
+                    <button class="right"><img src="images/right-arrow.png" /></button>
+                </header>
+
+                
+                <article>
+                    <p>
+                        Whilst Campione d'Italia is an Italian exclave in Switzerland. 
+                        The territory of Italy covers some 301,338 km2 (116,347 sq mi) and is 
+                        influenced by a temperate seasonal climate. With 60.6 million inhabitants, 
+                        it is the fifth most populous country in Europe, and the 23rd most populous in 
+                        the world.
+                    </p>
+                    <p>
+                        Rome, the capital of Italy, was for centuries the political and religious centre 
+                        of Western civilisation as the capital of the Roman Empire and site of the Holy See. 
+                    </p>
+                </article>
+                
+                <footer>
+                    <a href="" class="link" >comments</a>
+                    <p>Tags:</p>
+                        <ul>
+                            <li><a href="">Italy</a></li>,
+                            <li><a href="">Best wine</a></li>,
+                            <li><a href="">Spirit</a></li>,
+                            <li><a href="">World</a></li>
+                        </ul>
+                    <a href=""><img src="" /></a>
+                    <a href=""><img src="" /></a>
+                </footer> 
+            </article>
+
+            <article id="author">
+                <img src="images/article-image.png" />
+
+                <div id="text">
+                    <h1>About author</h1>
+                    <p>
+                        Italian wine is wine produced in Italy, a country which is home to 
+                        some of the oldest wine-producing regions in the world. 
+                    </p>
+                </div>
+            </article>
+          </div>
+
+          <div id="right">
+            <aside>
+                <h1>Subscribe</h1>
+                <button>mr.madbyte@gmail.com</button>
+
+                <h1>Most popular now</h1>
+                <ul class="italic">
+                    <li><a href="">Vineyards & Winery Offers Indulgent Adventures</a></li>
+                    <li><a href="">When the Internet Actually Works</a></li>
+                    <li><a href="">Ninth Annual Petite Sirah Symposium to Have Live Broadcast</a></li>
+                    <li><a href="">Vineyards & Winery Offers Indulgent Adventures</a></li>
+                    <li><a href="">When the Internet Actually Works</a></li>
+                    <li><a href="">Ninth Annual Petite Sirah Symposium to Have Live Broadcast</a></li>
+                </ul>
+
+                <h1>Wine tips & tricks</h1>
+                <div id="baloon">  
+                    <p>
+                        Italian wine is wine  
+                        produced in Italy, a country 
+                        which is home to some of the 
+                        oldest wine-producing
+                    </p>
+                    <a href="">Read More</a>
+                </div>
+            </aside>
+          </div>
+        </section>
+
+        <section id="users">
+            <h1>Comments</h1>
+            
+            <article class="comment">
+                <div class="avatar">
+                        <img src="images/comment-1.jpg" />
+                    </div>
+                <div class="content">
+                        <header>
+                            <h1>Mario Fernandez</h1>
+                        </header>
+                    
+                        <p>
+                            Whilst Campione d'Italia is an Italian exclave in Switzerland. 
+                            The territory of Italy covers some 301,338 km2 (116,347 sq mi) and 
+                            is influenced by a temperate seasonal climate. With 60.6 million 
+                            inhabitants, it is the fifth most populous country in Europe, and 
+                            the 23rd most populous in the world.
+                        </p>
+                    </div>
+            </article>
+                
+            <article class="comment">
+                <div class="avatar">
+                        <img src="images/comment-2.jpg" />
+                    </div>
+                <div class="content">
+                        <header>
+                            <h1>Vladimir Kudinov</h1>
+                        </header>
+                        
+                        <p>
+                            Whilst Campione d'Italia is an Italian exclave in Switzerland. 
+                            The territory of Italy covers some 301,338 km2 (116,347 sq mi) 
+                        </p>
+                    </div>
+            </article>
+                
+            <article class="comment">
+                <div class="avatar">
+                        <img src="images/comment-3.jpg" />
+                    </div>
+                <div class="content">
+                        <header>
+                            <h1>Sergey Brin</h1>
+                        </header>
+                        
+                        <p>
+                            Whilst Campione d'Italia is an Italian exclave in Switzerland. 
+                            The territory of Italy covers some 301,338 km2 (116,347 sq mi) and 
+                            is influenced by a temperate seasonal climate. With 60.6 million 
+                            inhabitants, it is the fifth most populous country in Europe, and 
+                            the 23rd most populous in the world.
+                        </p>
+                    </div>
+            </article>
+                
+            <article class="form">
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name"/>
+
+                    <br />
+                    
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email"/>
+                    
+                    <br />
+
+                    <label for="web">Web</label>
+                    <input type="text" id="web"/>
+                      
+                    <br />
+
+                    <label for="area">Comment</label>
+                    <textarea id="area" rows="5" cols="42"></textarea>
+
+                    <br />
+
+                    <button>Send</button>
+                </form>
+            </article>
+        </section>
+
+        <footer id="main-footer">
+            <div class="footer">
+                <div class="logo">
+                    <a href=""><img src="images/logo.png"</a>
+                </div>
+
+                <a href=""><img src="" /></a>
+                <a href=""><img src="" /></a>
+            </div>
+            
+            <div class="footer">
+                <h1>wine spinner</h1>
+                <ul class="italic">
+                    <li><a href="">Main page</a></li>
+                    <li><a href="">Wine examples</a></li>
+                    <li><a href="">Tasting</a></li>
+                </ul>
+            </div>
+
+            <div class="footer">
+                <h1>sip or spit meter</h1>
+                <ul class="italic">
+                    <li><a href="">More English world</a></li>
+                    <li><a href="">And English Queen</a></li>
+                    <li><a href="">English Ten</a></li>
+                    <li><a href="">English Wine</a></li>
+                </ul>
+            </div>
+
+            <div class="footer">
+                <h1>wine rack</h1>
+                <ul class="italic">
+                    <li><a href="">Main page</a></li>
+                    <li><a href="">Wine examples</a></li>
+                    <li><a href="">Tasting</a></li>
+                </ul>
+            </div>
+
+            <div class="footer">
+                <h1>rotten vine</h1>
+                <ul class="italic">
+                    <li><a href="">More English world</a></li>
+                    <li><a href="">And English Queen</a></li>
+                    <li><a href="">English Ten</a></li>
+                    <li><a href="">English Wine</a></li>
+                </ul>
+            </div>
+        </footer> 
+    </div>
+</body>
+</html>

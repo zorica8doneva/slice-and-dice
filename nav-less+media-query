@@ -1,213 +1,215 @@
-    /* =============================*/
-		/* --====== NAVIGATION ======-- */
-		/* =============================*/
-		nav {
-			margin-top:-10px;
-			background-image:url(images/background-li.jpg);
+/* =============================*/
+/* --====== NAVIGATION ======-- */
+/* =============================*/
+nav {
+	margin-top:-10px;
+	background-image:url(images/background-li.jpg);
+	background-repeat:repeat-x;
+	z-index:2;
+	@extend .clearfix;
+	.dl-trigger {
+		display:none;
+	}
+	.main-nav {
+		list-style-type:none;
+		width:100%;
+		background-image:url(images/rocks-nav.png);
+		background-repeat:no-repeat;
+		background-position:93% -65px;
+		height:80%;
+		margin-top:30px;
+		li {
+			display:inline-block;
+			height:43px;
+			padding-top:15px;
+			background:url(images/background-li.jpg);
 			background-repeat:repeat-x;
-			z-index:2;
-			@extend .clearfix;
-			.dl-trigger {
+			border-right:1px solid #438a2e;
+			a {
+				color: #fff;
+				padding:15px;
+				font-size:1.2em;
+				font-family:Minion Pro;
+				&:hover {
+					text-decoration:none;
+				}
+			}
+			&:last-child {
+				border-top-right-radius:5px;
+				border-bottom-right-radius:5px;
+				behavior:url(js/css3-pie/PIE_uncompressed.htc);
+				border-right:none;
+			}
+			ul.drop-down {
 				display:none;
 			}
-			.main-nav {
-				list-style-type:none;
-				width:100%;
-				background-image:url(images/rocks-nav.png);
-				background-repeat:no-repeat;
-				background-position:93% -65px;
-				height:80%;
-				margin-top:30px;
-				li {
-					display:inline-block;
-					height:43px;
-					padding-top:15px;
-					background:url(images/background-li.jpg);
-					background-repeat:repeat-x;
-					border-right:1px solid #438a2e;
-					a {
-						color: #fff;
-						padding:15px;
-						font-size:1.2em;
-						font-family:Minion Pro;
-						&:hover {
-							text-decoration:none;
+			&:hover,&.current {
+				background:url(images/background-li-hover.jpg);
+				background-repeat:repeat-x;
+			}
+			&:hover {
+				ul.drop-down {
+					display:block;
+					position:absolute;
+					margin-left:15px;
+					margin-top:15px;
+					z-index:10;
+					background-image:url(images/arrow-balon.png);
+					background-repeat:no-repeat;
+					background-position:30px 0px;
+					li {
+						display:block;
+						height:25px;
+						padding-left:25px;
+						padding-top:10px;
+						border:none;
+						background:none;
+						background-color:rgba(94, 170, 73, 0.9);
+						border-bottom:1px solid #fff;
+						&:first-child {
+							border-top-left-radius:5px;
+							border-top-right-radius:5px;
+							border-bottom-left-radius:0;
+							margin-top:10px;
 						}
-					}
-					&:last-child {
-						border-top-right-radius:5px;
-						border-bottom-right-radius:5px;
-						behavior:url(js/css3-pie/PIE_uncompressed.htc);
-						border-right:none;
-					}
-					ul.drop-down {
-						display:none;
-					}
-					&:hover,&.current {
-						background:url(images/background-li-hover.jpg);
-						background-repeat:repeat-x;
-					}
-					&:hover {
-						ul.drop-down {
-							display:block;
-							position:absolute;
-							margin-left:15px;
-							margin-top:15px;
-							z-index:10;
-							background-image:url(images/arrow-balon.png);
-							background-repeat:no-repeat;
-							background-position:30px 0px;
-							li {
-								display:block;
-								height:25px;
-								padding-left:25px;
-								padding-top:10px;
-								border:none;
-								background:none;
-								background-color:rgba(94, 170, 73, 0.9);
-								border-bottom:1px solid #fff;
-								&:first-child {
-									border-top-left-radius:5px;
-									border-top-right-radius:5px;
-									border-bottom-left-radius:0;
-									margin-top:10px;
-								}
-								&:last-child {
-									border-bottom-left-radius:5px;
-									border-bottom-right-radius:5px;
-									border-top-right-radius:0;
-									border-bottom:none;
-								}
-								&:hover,&.current {
-									background:url(images/ul-drop-down.jpg);
-									background-repeat:repeat-x;
-									/*@include linear-gradient(rgba(94, 171, 74, 1),rgba(66, 147, 42, 1));*/
-									opacity:1;
-									a {
-										color:#fff;
-									}
-									&:before {
-										color:#fff;
-									}
-								}
-								&:before {
-									content:"|";
-									color:#fff;
-									font-weight:bold;
-								}
-								a {
-									padding:5px 25px;
-									margin-left:-18px;
-								}
+						&:last-child {
+							border-bottom-left-radius:5px;
+							border-bottom-right-radius:5px;
+							border-top-right-radius:0;
+							border-bottom:none;
+						}
+						&:hover,&.current {
+							background:url(images/ul-drop-down.jpg);
+							background-repeat:repeat-x;
+							/*@include linear-gradient(rgba(94, 171, 74, 1),rgba(66, 147, 42, 1));*/
+							opacity:1;
+							a {
+								color:#fff;
 							}
+							&:before {
+								color:#fff;
+							}
+						}
+						&:before {
+							content:"|";
+							color:#fff;
+							font-weight:bold;
+						}
+						a {
+							padding:5px 25px;
+							margin-left:-18px;
 						}
 					}
 				}
 			}
 		}
-    /* ==========================*/
-    /* ---==== RESPONSIVE ====---*/
-    /* ==========================*/		
-    @media only screen and (min-width:320px) and (max-width:480px) {
-    	body {
-    		background:#13260a;
-    		#wrapper {
-    			width:100%;
-    			margin-top:0;
-    			header {
-    				background:none;
-    				height:auto;
-    				padding-bottom:20px;
-    				#logo {
-    					float:none;
-    					text-align:center;
-    				}
-    				#quote {
-    					display:none;
-    				}
-    			}
-    			nav {
-    				background:none;
-    				#pull {
-    					display:block;
-    					background-color:#499832;
-    					width:100%;
-    					height:40px;
-    					position:relative;
-    					border: none;
-    					text-indent: -900em;
-    					overflow: hidden;
-    					position: relative;
-    					cursor: pointer;
-    					outline: none;
-    					&:after {
-    						content:"";
-    						background:url(images/more-for-tablets.png);
-    						background-repeat:no-repeat;
-    						width:30px;
-    						height:30px;
-    						display:inline-block;
-    						position:absolute;
-    						right:15px;
-    						top:10px;
-    					}					
-    					&:hover {
-    						background:green;
-    					}
-    				}
-    				.dl-menu {
-    					background:none;
-    					display:block;
-    					li {
-    						display:block;
-    						text-align:center;
-    						height:25px;
-    						background:url(images/background-li-320.jpg);
-    						background-repeat:repeat-x;
-    						padding:5px;
-    						position:relative;
-    						&:hover {
-    							background:url(images/background-li-hover-320.jpg);
-    							background-repeat:repeat-x;
-    							ul.drop-down {
-    								display:none;
-    								position:absolute;
-    								width:95%;
-    								left:0px;
-    								top:20px;
-    								background-color:#4a9833;
-    								background-image:none;
-    								padding-top:0;
-    								li {
-    									display:block;
-    									border:none;
-    									background:none;
-    									border-bottom:1px solid #fff;
-    									&:hover,&.current {
-    										background:#4a9833;
-    										opacity:1;											
-    										left:0;
-    									}
-    									a {
-    										color:#fff;
-    										text-align:right;
-    									}
-    									&:before {
-    										display:none;
-    									}
-    								}
-    							}
-    						}
-    						&:last-child {
-    							border-radius:0;
-    						}
-    						a {
-    							display:block;
-    							padding:0;
-    							text-align:center;
-    							font-size:1.3em;
-    							position: relative;
-    						}
-    					}
-    				}
-    			}
+	}
+}
+/* ==========================*/
+/* ---==== RESPONSIVE ====---*/
+/* ==========================*/		
+@media only screen and (min-width:320px) and (max-width:480px) {
+	body {
+		background:#13260a;
+		#wrapper {
+			width:100%;
+			margin-top:0;
+			header {
+				background:none;
+				height:auto;
+				padding-bottom:20px;
+				#logo {
+					float:none;
+					text-align:center;
+				}
+				#quote {
+					display:none;
+				}
+			}
+			nav {
+				background:none;
+				#pull {
+					display:block;
+					background-color:#499832;
+					width:100%;
+					height:40px;
+					position:relative;
+					border: none;
+					text-indent: -900em;
+					overflow: hidden;
+					position: relative;
+					cursor: pointer;
+					outline: none;
+					&:after {
+						content:"";
+						background:url(images/more-for-tablets.png);
+						background-repeat:no-repeat;
+						width:30px;
+						height:30px;
+						display:inline-block;
+						position:absolute;
+						right:15px;
+						top:10px;
+					}					
+					&:hover {
+						background:green;
+					}
+				}
+				.dl-menu {
+					background:none;
+					display:block;
+					li {
+						display:block;
+						text-align:center;
+						height:25px;
+						background:url(images/background-li-320.jpg);
+						background-repeat:repeat-x;
+						padding:5px;
+						position:relative;
+						&:hover {
+							background:url(images/background-li-hover-320.jpg);
+							background-repeat:repeat-x;
+							ul.drop-down {
+								display:none;
+								position:absolute;
+								width:95%;
+								left:0px;
+								top:20px;
+								background-color:#4a9833;
+								background-image:none;
+								padding-top:0;
+								li {
+									display:block;
+									border:none;
+									background:none;
+									border-bottom:1px solid #fff;
+									&:hover,&.current {
+										background:#4a9833;
+										opacity:1;											left:0;
+									}
+									a {
+										color:#fff;
+										text-align:right;
+									}
+									&:before {
+										display:none;
+									}
+								}
+							}
+						}
+						&:last-child {
+							border-radius:0;
+						}
+						a {
+							display:block;
+							padding:0;
+							text-align:center;
+							font-size:1.3em;
+							position: relative;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,6 +1,6 @@
-<!-- NAV -->
+        <!-- NAV -->
         <nav id="dl-menu" class="dl-menuwrapper">
-            <button class="dl-trigger">Open Menu</button>
+            <!--<button class="dl-trigger">Open Menu</button>-->
 
             <ul class="dl-menu main-nav">
                 <li class="current">
@@ -63,4 +63,5 @@
                     </ul>
                 </li>
             </ul>
+            <a href="#" id="pull">Menu</a>
         </nav>

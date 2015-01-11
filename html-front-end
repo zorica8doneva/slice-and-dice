@@ -1,0 +1,562 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Welcome</title>
+    <link rel="Stylesheet" type="text/css" href="scss.css" />
+    <script src="jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
+    <script src="tab-strip.js"></script>
+    <script src="tab-strip1.js"></script>
+    <script type="text/javascript" src="thumbelina.js"></script> 
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="logo">
+                <a href="home.html">
+                    <img src="images/logo.jpg" alt="Your Money" title="Your Money" />
+                </a>
+            </div>
+
+            <div id="personal-nav">
+                <ul>
+                    <li>
+                        <a href="#">basket(0)</a>
+                    </li><li>
+                        <a href="#">my account</a>
+                    </li><li>
+                        <a href="#">help</a>
+                    </li><li>
+                        <a href="#">log out</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#"></a>
+                    </li><li>
+                        <a href="">menu</a>
+                        <ul>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                        </ul>
+                    </li><li>
+                        <a href="#">What is Reward Gateway?</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1 class="basic">Welcome back, Stella</h1>
+
+        <aside>
+            <article id="account-holder">
+                <header>
+                    <img src="images/photo.png" />
+
+                    <h1>Stella Vandenberrghe</h1>
+                </header>
+
+                <nav id="aside-nav">
+                    <a href="#" id="pull">Account quick links</a>
+
+                    <ul class="main-nav accordion">
+                        <li><a href="">My Total Savings</a></li>
+                        <li><a href="">My Favourite Retailers</a></li>
+                        <li><a href="">My Cashback Balance</a></li>
+                        <li><a href="">Reduce your Outgoings</a></li>
+                    </ul>
+                </nav>
+            </article>
+
+            <article id="main-links">
+                <ul>
+                    <li class="current"><a href="">Budget for Today</a></li>
+                    <li><a href="">Plan for the Futura</a></li>
+                    <li><a href="">Reduce your Outgoings</a></li>
+                </ul>
+            </article>
+
+            <article id="side-menu">
+                <h1>Spending Smart</h1>
+
+                <ul>
+                    <li><a href="">Reduce your outgoings! Find great discounts from over <span>600</span> retailers!</a></li>
+                    <li><a href="">Dining Out</a></li>
+                    <li><a href="">Clothing</a></li>
+                    <li><a href="">Travel</a></li>
+                    <li><a href="">Books and Enterntainment</a></li>
+                    <li><a href="">Electronics</a></li>
+                    <li><a href="">Show All</a></li>
+                </ul>
+            </article>
+
+            <article id="else">
+                <h1>Elsewhere on the Web</h1>
+                
+                <ul>
+                    <li>
+                        <a href="">Benchmark Basics: How to Set Milestones and Reach Your Financial Goals <span>mint.com/blog</span></a>
+                    </li>
+                    <li>
+                        <a href="">How to Throw a Big Game Party on a Small Budget <span>mint.com/blog</span></a>
+                    </li>
+                    <li>
+                        <a href="">Commuter Tax Break Set To Plummet For 2014 <span>forbes.com</span></a>
+                    </li>
+                </ul>
+            </article>
+
+            <article id="need-advice">
+                <p>
+                    Do you need debt advice immediately? Then don’t 
+                    wait and <a href="">click here</a> to read our advice 
+                    or alternatively you can ring:
+
+                    <strong><span>Call</span>: 1-866-528-0588</strong>
+                    to speak to our independent Employee Assistance Provider
+                </p>
+            </article>
+        </aside>
+
+        <section>
+            <article id="ceo-message">
+                <img src="images/image-ceo.png" />
+                
+                <p><span style="font-family:Elephant;font-size:40px;color:#208ade;font-weight:bold;margin-top:-10px;margin-left:-20px;">"</span>
+                    ComCast pays for the provision of this service because we care about your financial
+                    wellness and we want you to have a resource that is genuinely impartial and carries 
+                    no advertising and is independent of any influence from commission from third 
+                    parties. Your information and usage is entirely private and nothing you do or look 
+                    at here is shared with us in any way that identifies you. 
+                    <a href="">Read more &rarr; </a>
+                </p>
+
+                <span>Brian L Roberts, ComCast CEO</span>
+                   
+                <input type="checkbox" checked="checked" name="show" />
+                <label id="show">Don't show again</label>
+            </article>
+
+            <article id="plan">
+                <ul class="tab-strip">
+                    <li>
+                        <a href="#" class="tab-btn">1.plan<span>for the future</span></a>
+                        <div class="tab-content">
+                            <div class="triangle-one"></div>
+                            <p>
+                                Our tools, articles 
+                                and case studies will help to set you on the road to financial wellness.
+                                <a href="" class="other">Find out more</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="current">
+                        <a href="#" class="tab-btn">2.plan<span>for the future</span></a>
+                        <div class="tab-content">
+                            <div class="triangle-two"></div>
+                            <p>
+                                Planning for the future is an extremely important part of living a 
+                                stress free life when it comes to your finances. Our tools, articles 
+                                and case studies will help to set you on the road to financial wellness.
+                                <a href="" class="other">Find out more</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="tab-btn">3.reduce<span>your outgoings</span></a>
+                        <div class="tab-content">
+                            <div class="triangle-three"></div>
+                            <p>
+                                Other article ... for the future is an extremely important part of living a 
+                                stress free life when it comes to your finances. 
+                                <a href="" class="other">Find out more</a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+
+            
+
+            <article id="comcast-benefits">
+                <header>
+                    <h1>your comcast benefits</h1>
+                    <h2>From your profile the six benefits that are most likely to save you money are:</h2>
+                </header>
+
+                <article>
+                    <ul>
+                        <li>
+                            <a href="">401K <span>Your pension plan</span></a>
+                        </li><li>
+                            <a href="">Flexible Spending Account <span>Tax-free reimbursement</span></a>
+                        </li><li>
+                            <a href="">Prescription <span>National Prescription Drug Plan program</span></a>
+                        </li><li>
+                            <a href="">Life and Accident Insurance <span>Basic Life Insurance benefit and AD&D</span></a>
+                        </li><li>
+                            <a href="">Stock Purchase Plan <span>Buy Comcast stock at a 15% discount</span></a>
+                        </li><li>
+                            <a href="">Commuter Benefits <span>Pre-tax payment for commuting expenses</span></a>
+                        </li>
+                    </ul>
+                </article>
+
+                <footer>
+                    <p>
+                        <strong>65%</strong> of Comcast employees are not making the most of 
+                        the benefits we provide. Time to change that...
+                    </p>
+
+                    <a href="">View All Comcast Benefits</a>
+                </footer>
+            </article>
+
+            <article id="hor-article">
+                <h1>10 Ways to Earn Some Extra Cash</h1>
+                <h2>(Without breaking the law!)</h2>
+
+                <p>
+                    Getting rich quick has always been the dream of
+                    many Americans, but aside from a big lottery win, 
+                    most of us are unlikely to...
+                </p>
+
+                <a href="">Read Full Article</a>
+            </article>
+
+            <div id="wrap-lists">
+                <article class="lists" id="budget-planner">
+                    <div class="wrap-background">
+                        <h1>budget planner</h1>
+                        <p>
+                            Use this planner to work out how 
+                            much money you have coming in 
+                            and what you're spending it on
+                        </p>
+                    </div>
+                </article>
+
+                <article class="lists" id="fridge-list">
+                    <div  class="wrap-background">
+                        <h1>3min Fridge List </h1>
+                        <p>
+                            Get a personalised financial action
+                            plan that you can print and stick on
+                            your fridge
+                        </p>
+                    </div>
+                </article>
+
+                <article class="lists" id="saving-calculator">
+                    <div  class="wrap-background">
+                        <h1>Spending smart calculator</h1>
+                        <p>         
+                            We can show you where you can 
+                            reduce your outgoings...
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <article id="verticle-article">
+                <h1>10 Fun and free things to do with your family in New York</h1>
+                <p>    
+                    New York City is home to a wealth of activities that will cost you nothing. 
+                    You only need to know where you should look...
+                </p>
+
+                <a href="">Read Full Article</a>
+            </article>
+        </section>
+        
+        <section id="second">
+            <article id="advice-center">
+                <ul class="tab-strip1">
+                    <li class="current">
+                        <a href="#" class="tab-btn1">Budget for today</a>
+                        <article class="tab-content1">
+                            <div class="triangle-down-one"></div>
+                            <h1>advice center</h1>
+
+                            <article class="advice-center-lists" id="one">
+                                <h1>How to set a savings goal</h1>
+
+                                <p>
+                                    People who set a savings goal save faster than those who don’t! So if 
+                                    you really want to get that deposit for a home, or save enough for a 
+                                    dream holiday... <a href="">Read more »</a>
+                                </p>
+                            </article>
+
+                            <article class="advice-center-lists" id="two">
+                                <h1>Ways to boost your pension in the run-up to retirement</h1>
+
+                                <p>
+                                    Even if retirement isn’t far away, there are steps you can take to increase 
+                                    the retirement income you’ll receive when you retire. This applies both 
+                                    to... <a href="">Read more »</a>
+                                </p>
+                            </article>
+
+                            <article class="advice-center-lists" id="three">
+                                <h1>How to buy investments</h1>
+
+                                <p>
+                                    Buying investments can seem daunting if you haven’t done it before. 
+                                    Follow our step-by-step guide and see if investment is in your 
+                                    blood... <a href="">Read more »</a>
+                                </p>
+                            </article>
+
+                            <a href="" class="button">Read All</a>
+                        </article>
+                    </li><li>
+                        <a href="#" class="tab-btn1">Plan fot the future</a>
+                        <article class="tab-content1">
+                            <div class="triangle-down-two"></div>
+                            <h1>advice center</h1>
+
+                            <article class="advice-center-lists">
+                                <h1>Ways to boost your pension in the run-up to retirement</h1>
+
+                                <p>
+                                    Even if retirement isn’t far away, there are steps you can take to increase 
+                                    the retirement income you’ll receive when you retire. This applies both 
+                                    to... <a href="">Read more »</a>
+                                </p>
+                            </article>
+
+                            <article class="advice-center-lists">
+                                <h1>How to set a savings goal</h1>
+
+                                <p>
+                                    People who set a savings goal save faster than those who don’t! So if 
+                                    you really want to get that deposit for a home, or save enough for a 
+                                    dream holiday... <a href="">Read more »</a>
+                                </p>
+                            </article>
+
+                            <article class="advice-center-lists">
+                                <h1>How to buy investments</h1>
+
+                                <p>
+                                    Buying investments can seem daunting if you haven’t done it before. 
+                                    Follow our step-by-step guide and see if investment is in your 
+                                    blood... <a href="">Read more »</a>
+                                </p>
+                            </article>
+
+                            <a href="" class="button">Read All</a>
+                        </article>
+                    </li><li>
+                        <a href="#" class="tab-btn1">Reduce your outgoings</a>
+                        <article class="tab-content1">
+                            <div class="triangle-down-three"></div>
+                            <h1>advice center</h1>
+
+                            <article class="advice-center-lists">
+                                <h1>How to buy investments</h1>
+
+                                <p>
+                                    Buying investments can seem daunting if you haven’t done it before. 
+                                    Follow our step-by-step guide and see if investment is in your 
+                                    blood... <a href="">Read more »</a>
+                                </p>
+                            </article>
+
+                            <article class="advice-center-lists">
+                                <h1>How to set a savings goal</h1>
+
+                                <p>
+                                    People who set a savings goal save faster than those who don’t! So if 
+                                    you really want to get that deposit for a home, or save enough for a 
+                                    dream holiday... <a href="">Read more »</a>
+                                </p>
+                            </article>
+
+                            <article class="advice-center-lists">
+                                <h1>Ways to boost your pension in the run-up to retirement</h1>
+
+                                <p>
+                                    Even if retirement isn’t far away, there are steps you can take to increase 
+                                    the retirement income you’ll receive when you retire. This applies both 
+                                    to... <a href="">Read more »</a>
+                                </p>
+                            </article>
+                            <a href="" class="button">Read All</a>
+                        </article>
+                    </li>
+                </ul>
+            </article>
+
+            <footer>
+                <h1>send us your sroty</h1>
+
+                <p>
+                    Do you have an idea for an article? Have you used our tools or advice in a 
+                    way that's worthy of a case study? If so, we want to hear from you! Send us 
+                    your thoughts in the form below and you could be in with a chance of winning 
+                    a $100 gift card!
+                </p>
+
+                <a href="">Send Story</a>
+            </footer>
+        </section>
+
+        <section id="third">
+            <article id="slider1">
+                <header>
+                    <h1>spend less with employee reduces princing</h1>
+
+                    <a class="thumbelina-but horiz left">&#706;</a>
+                    <a class="thumbelina-but horiz right">&#707;</a>
+                </header>
+
+                <ul>
+                    <li>    
+                        <a href="">
+                            <img src="images/tumbnail-one.jpg" />
+                            <span>up to <strong>5% Off</strong></span>
+                        </a>
+                    </li>
+
+                    <li>    
+                        <a href="">
+                            <img src="images/tumbnail-two.jpg" />
+                            <span><strong>5% Off</strong></span>
+                        </a>
+                    </li>
+
+                    <li>    
+                        <a href="">
+                            <img src="images/tumbnail-three.jpg" />
+                            <span><strong>10% Cashback</strong></span>
+                        </a>
+                    </li>
+
+                    <li>    
+                        <a href="">
+                            <img src="images/tumbnail-four.jpg" />
+                            <span><strong>4% Cashback</strong></span>
+                        </a>
+                    </li>
+
+                    <li>    
+                        <a href="">
+                            <img src="images/tumbnail-one.jpg" />
+                            <span>up to <strong>5% Off</strong></span>
+                        </a>
+                    </li>
+
+                    <li>    
+                        <a href="">
+                            <img src="images/tumbnail-two.jpg" />
+                            <span><strong>5% Off</strong></span>
+                        </a>
+                    </li>
+
+                    <li>    
+                        <a href="">
+                            <img src="images/tumbnail-three.jpg" />
+                            <span><strong>10% Cashback</strong></span>
+                        </a>
+                    </li>
+
+                    <li>    
+                        <a href="">
+                            <img src="images/tumbnail-four.jpg" />
+                            <span><strong>4% Cashback</strong></span>
+                        </a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <footer id="main-footer">
+            <article class="menu">
+                <h1>Spending Smart</h1>
+
+                <ul>
+                    <li><a href="">In-store Offers</a></li>
+                    <li><a href="">Online Offers</a></li>
+                    <li><a href="">Products Finder <span>beta</span></a></li>
+                </ul>
+            </article>
+
+            <article class="menu">
+                <h1>Plan for the Future</h1>
+
+                <ul>
+                    <li><a href="">Save-a-thon</a></li>
+                    <li><a href="">Advice Center</a></li>
+                    <li><a href="">Saving Toolkit</a></li>
+                </ul>
+            </article>
+
+            <article class="menu">
+                <h1>Budget for Today</h1>
+
+                <ul>
+                    <li><a href="">Budger Tool</a></li>
+                    <li><a href="">Savings Calculator</a></li>
+                    <li><a href="">Tips and Tricks<sup>beta</sup></a></li>
+                </ul>
+            </article>
+
+            <article class="menu">
+                <h1>Secured By</h1>
+
+                <img src="images/secured.jpg" />
+            </article>
+
+            <article class="nav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Site Map</a></li>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                </ul>
+
+                <p>
+                    Comcast Financial Wellnes is operated for Comcast by Reward Gateway (USA)
+                    Inc. Copyright &copy; 2014 Reward Gateway (USA) Inc.<br />
+                    Comcast provides this service to employees as a genuine employee benefit, and neithet Comcast Reward Gateway
+                    (USA) Inc profits from your shooping an this website.<br>
+                    Your activity is 100% confidential and we never share your private information or
+                    shopping habits ot preferences with your Employer or anyone else. Your personality 
+                    identifiable and private information will never be sold ot passed on to any retailer ot third party.
+                </p>
+
+                <p>
+                    By using this site, you argee we can set and use cookies. For more details of these cookies and
+                    how to disable them, see our <a href="">cookie policy</a>.
+                </p>
+            </article>
+        </footer>
+    </div>
+
+    <script>
+        $(".tab-strip").tabStrip();
+    </script>
+
+    <script>
+        $(".tab-strip1").tabStripOne();
+    </script>
+
+    <script>
+        $(function () {
+            $('#slider1').Thumbelina({
+                $bwdBut: $('#slider1 .left'),
+                $fwdBut: $('#slider1 .right')
+            });
+        })
+    </script> 
+</body>
+</html>
